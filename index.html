@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/body.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/conteiner.css" />
+  <link rel="stylesheet" href="css/todolist.css" />
+  <link rel="stylesheet" href="css/button.css" />
+
+  <script defer src="js/script.js"></script>
+  <title>To-do list</title>
+</head>
+<body class="body">
+    <header class="header">
+        <h1>Lista zadań</h1>
+    </header>
+    <main class="main">
+        <h2 class="main__header">Dodaj nowe zadanie</h2>
+        <div class="conteiner">
+            <form class = "js-form"action="https://tvn24.pl/swiat" method="post">
+            <input class="conteiner__input js-input" type="text" placeholder="Co jest do zrobienia" autofocus>
+            <button class="conteiner__button">Dodaj zadanie</button>
+        </form>
+        </div>
+        <h2 class="main__header">Lista zadań</h2>
+        <ul class="todolist js-todolist">
+        </ul>
+            
+    
+    </main>
+
+</body>
+</html>    

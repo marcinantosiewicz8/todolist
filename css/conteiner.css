@@ -1,0 +1,23 @@
+.conteiner{
+    background-color: white;
+    margin-inline: 40px;
+    margin-top: 0px;
+    padding: 30px;
+    width: 90%;
+}
+
+.conteiner__input{
+    max-width: 1000px;
+    width: 100%;
+    height: 50px;
+    margin-right: 40px;
+}
+
+.conteiner__button{
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(6, 75, 75);
+    color: white;
+    font-size: 20px;
+}
