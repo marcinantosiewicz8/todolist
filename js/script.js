@@ -59,15 +59,9 @@
 
 
     const render = () =>{
-        
-        
-
        document.querySelector(".js-todolist").innerHTML = writelist(); 
-
        remove();
-       done();
-
-            
+       done();         
     } 
 
     const stopform = () => {
@@ -81,11 +75,7 @@
 
     const init = () => {
         render();
-        stopform();
-            
-            
-
-        
+        stopform();     
     }
 
     init();
